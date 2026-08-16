@@ -1,0 +1,23 @@
+name: Feature proposal
+description: Suggest an improvement to the student revision experience
+title: "[Feature]: "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Student problem
+      description: What difficulty does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or validation plan
+      description: How will we know this helps students?
