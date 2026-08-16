@@ -1,12 +1,12 @@
 # Nota 1000
 
-An interactive writing lab that helps Brazilian high-school students understand the five ENEM essay competencies and turn feedback into a concrete revision plan.
+An interactive writing platform that helps Brazilian high-school students understand the five ENEM essay competencies and turn feedback into a concrete revision plan.
 
 **Live product:** https://nota-1000.rafasn008.chatgpt.site
 
 ## Why it exists
 
-An essay score is useful only when students understand what to change next. Nota 1000 makes the competency structure easier to explore through a focused, private-by-design revision experience.
+Democratize access to ENEM essay preparation for low-income students to expand their educational opportunities.
 
 ## Current MVP
 
