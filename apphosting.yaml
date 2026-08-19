@@ -1,0 +1,22 @@
+runConfig:
+  minInstances: 0
+  maxInstances: 10
+  concurrency: 40
+  cpu: 1
+  memoryMiB: 512
+
+env:
+  - variable: OPENAI_API_KEY
+    secret: OPENAI_API_KEY
+  - variable: OPENAI_MODEL
+    value: gpt-5.6-luna
+    availability:
+      - RUNTIME
+  - variable: MONTHLY_CORRECTION_LIMIT
+    value: "5"
+    availability:
+      - RUNTIME
+  - variable: STORE_ESSAY_TEXT
+    value: "false"
+    availability:
+      - RUNTIME
